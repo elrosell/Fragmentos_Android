@@ -17,21 +17,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Rojo"
-            android:id="@+id/btrojo"/>
-
+            android:text="rojo"
+            android:id="@+id/brojo"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Verde"
-            android:id="@+id/btverde"/>
+            android:text="verde"
+            android:id="@+id/bverde"/>
+
     </LinearLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/contenedorfragmentos"/>
-
 
 </LinearLayout>

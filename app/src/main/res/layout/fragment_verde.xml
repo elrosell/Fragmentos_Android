@@ -8,12 +8,18 @@
     android:layout_margin="30dp"
     tools:context=".Verde">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textAlignment="center"
-        android:text="fragmento verde" />
+        android:layout_height="wrap_content"
+        android:text="fragmento de inicio"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/botonv"
+        android:text="saludo"/>
 
 </LinearLayout>
 

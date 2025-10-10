@@ -19,7 +19,7 @@ public class rojo extends Fragment implements View.OnClickListener {
                              Bundle savedInstanceState) {
         View vistita;
         vistita = inflater.inflate(R.layout.fragment_rojo, container, false);
-        botoncito = vistita.findViewById(R.id.btrojo);
+        botoncito = vistita.findViewById(R.id.botonr);
         botoncito.setOnClickListener(this);
         return vistita;
     }
@@ -28,6 +28,6 @@ public class rojo extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         Clasesita objetito = new Clasesita();
 
-        Toast.makeText(getContext(), objetito.mensajito(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), objetito.mensajitoRojo(), Toast.LENGTH_SHORT).show();
     }
 }
